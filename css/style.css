@@ -1,0 +1,206 @@
+body {
+  font-family: georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+}
+
+#nav {
+  background-color: white;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+#title {
+  font-size: 29px;
+  font-weight: bold;
+  color: #F72525;
+  line-height: normal;
+  margin: 13px 0 3px;
+}
+
+#subtitle {
+  font-family: sacramento,cursive;
+  font-size: 23px;
+  color: #717070;
+  margin-top: 0;
+}
+
+#whatsapp-nav {
+  text-align: right;
+  margin-top: 16px; 
+}
+
+#whatsapp-nav h5{
+  vertical-align: top;
+  display: inline-block;
+  color: black;
+}
+
+#index-banner {
+  min-height: 540px;
+}
+
+.banner-img {
+  position: absolute;
+  bottom: 0;
+}
+
+.banner-img img {
+  width: 80%;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.parallax {
+  z-index: -2;
+}
+
+.material-icons {
+  color: #F72525;
+}
+
+.label-text {
+  display: inline;
+  vertical-align: super;
+}
+
+.btn {
+  background-color: #F72525;
+}
+
+.btn-text {
+  background-color: #F72525;
+  margin: 10px;
+  padding: 4px 15px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+#features {
+  background-color: #F72525;
+  padding: 70px 0;
+}
+
+.feature-icon {
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.feature-icon img {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.feature-text {
+  font-family: helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  font-size: 14px;
+}
+
+.exclama {
+  font-family: bodoni-w01-poster,bodoni-poster-w10,fantasy;
+  font-size: 90px;
+  margin: 0 0 -25px;
+}
+
+#contact {
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+
+#contact-title {
+  padding: 40px 0 5px;
+  margin-top: 0;
+}
+
+#contact-subtitle {
+  padding: 0 0 20px; 
+}
+
+.btn-submit {
+  margin: 10px 0 50px;
+}
+
+.btn-submit:hover {
+  background-color: #F55A5A;
+}
+
+.btn-submit i {
+  color: white;
+}
+
+footer {
+  background-color: #F72525;
+  padding: 30px 0;
+}
+
+.txt-footer {
+  font-size: 20px;
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #nav {
+    border-bottom: 2px solid #F72525;
+    height: 50px;
+  }
+
+  #whatsapp-nav, #subtitle {
+    display: none;
+  }
+
+  #title {
+    font-size: 25px;
+  }
+
+  .header-banner {
+    font-size: 45px;
+  }
+
+  i.small {
+    font-size: 22px;
+  }
+
+  .label-text {
+    font-size: 17px;
+    font-weight: normal;
+  }
+
+  .banner-row {
+    margin-bottom: 0;
+  }
+
+  .banner-img {
+    position: relative;
+  }
+
+  .slogan  {
+    display: none;
+  }
+
+  #contact-title {
+    font-size: 38px;
+  }
+
+  #contact-subtitle {
+    font-size: 24px;
+  }
+
+  .txt-footer {
+    font-size: 14px;
+  }
+
+}
