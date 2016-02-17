@@ -8,6 +8,10 @@ body {
   margin-bottom: 0;
 }
 
+#logo {
+  float: left;
+}
+
 #title {
   font-size: 29px;
   font-weight: bold;
@@ -23,7 +27,29 @@ body {
   margin-top: 0;
 }
 
+#lang-nav {
+  float: right;
+  color: black;
+  text-align: right;
+  line-height: 85px;
+  margin-right: 10px;
+}
+
+#lang-nav ul li {
+  display: inline-block;
+}
+#lang-nav ul li a {
+  color: #F72525;
+  padding: 0 5px;
+}
+
+#lang-nav ul li a.active {
+  font-weight: bold;
+  color: black;
+}
+
 #whatsapp-nav {
+  float: right;
   text-align: right;
   margin-top: 16px; 
 }
@@ -164,6 +190,10 @@ footer {
 
   #whatsapp-nav, #subtitle {
     display: none;
+  }
+
+  #lang-nav {
+    line-height: 50px;
   }
 
   #title {
