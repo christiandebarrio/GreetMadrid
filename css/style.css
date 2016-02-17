@@ -95,6 +95,7 @@ body {
 .label-text {
   display: inline;
   vertical-align: super;
+  line-height: 31px;
 }
 
 .btn {
@@ -209,7 +210,7 @@ footer {
   }
 
   .label-text {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: normal;
   }
 
